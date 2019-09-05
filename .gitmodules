@@ -1,3 +1,6 @@
 [submodule "VRPhysics/Assets/VRCore"]
 	path = VRPhysics/Assets/VRCore
 	url = https://github.com/Inspiron5680/VRCore.git
+[submodule "VRPhysics/Assets/AccelerationMotion"]
+	path = VRPhysics/Assets/AccelerationMotion
+	url = https://github.com/Inspiron5680/AccelerationMotion.git
