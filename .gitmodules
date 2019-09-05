@@ -1,0 +1,3 @@
+[submodule "VRPhysics/Assets/VRCore"]
+	path = VRPhysics/Assets/VRCore
+	url = https://github.com/Inspiron5680/VRCore.git
