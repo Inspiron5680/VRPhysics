@@ -4,5 +4,11 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/HomeScene.unity
+    guid: 555cad4b13139f040ab0013b2bd71349
+  - enabled: 1
+    path: Assets/AccelerationMotion/Scenes/AccelerationMotion.unity
+    guid: 740a913c7c9ffd042bc564a37464963b
   m_configObjects: {}
