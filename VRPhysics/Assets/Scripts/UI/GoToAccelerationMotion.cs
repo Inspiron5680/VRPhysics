@@ -4,7 +4,7 @@ using UnityEngine.SceneManagement;
 public class GoToAccelerationMotion : MonoBehaviour, VRUI
 {
 
-    [SerializeField] Animator animator;
+    [SerializeField] GameObject accelerationMotionDemo;
     bool isRayStaying;
 
     public void Reaction()
@@ -14,7 +14,8 @@ public class GoToAccelerationMotion : MonoBehaviour, VRUI
             return;
         }
 
-
+        accelerationMotionDemo.SetActive(true);
+        isRayStaying = true;
     }
 
     public void Receiver()

@@ -197,6 +197,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9a5a7364aebdffe46a6ed57891d45625, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  accelerationMotionDemo: {fileID: 3074686944465488975}
 --- !u!1 &9047986210136204778
 GameObject:
   m_ObjectHideFlags: 0
@@ -384,6 +385,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: AccelerationMotionDemo
       objectReference: {fileID: 0}
+    - target: {fileID: 4016045856833569967, guid: 6e0ed8078df5adc47a04b98b36c9c82d,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 517690948837707913, guid: 6e0ed8078df5adc47a04b98b36c9c82d,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -441,6 +447,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6e0ed8078df5adc47a04b98b36c9c82d, type: 3}
+--- !u!1 &3074686944465488975 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4016045856833569967, guid: 6e0ed8078df5adc47a04b98b36c9c82d,
+    type: 3}
+  m_PrefabInstance: {fileID: 2094357520773220576}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1891391160529918057 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 517690948837707913, guid: 6e0ed8078df5adc47a04b98b36c9c82d,
