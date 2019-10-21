@@ -5,6 +5,8 @@ using UnityEngine;
 public class ReturnSceneObserve : MonoBehaviour
 {
     [SerializeField] GameObject returnSceneUI;
+    [SerializeField] Transform centerEye;
+    GameObject instantUI;
 
     // Start is called before the first frame update
     void Start()
@@ -13,13 +15,14 @@ public class ReturnSceneObserve : MonoBehaviour
             .Where(_ => OVRInput.GetDown(OVRInput.RawButton.Start))
             .Subscribe(_ =>
             {
-                if (returnSceneUI.activeInHierarchy)
+                if (!instantUI)
                 {
-                    returnSceneUI.SetActive(false);
+                    instantUI = Instantiate(returnSceneUI, centerEye);
+                    instantUI.transform.parent = null;
                 }
                 else
                 {
-                    returnSceneUI.SetActive(true);
+                    Destroy(instantUI);
                 }
             });
     }
