@@ -1,18 +1,29 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
-public class ReturnSceneUI : MonoBehaviour
+public class ReturnSceneUI : MonoBehaviour,VRUI
 {
-    // Start is called before the first frame update
-    void Start()
+    enum Choice
     {
-        
+        Done,Cancel
+    }
+    [SerializeField] ReturnScene returnScene;
+    [SerializeField] Choice choice;
+
+    public void Receiver()
+    {
+        switch (choice)
+        {
+            case Choice.Done:
+                returnScene.Return();
+                break;
+            case Choice.Cancel:
+                returnScene.Cancel();
+                break;
+        }
     }
 
-    // Update is called once per frame
-    void Update()
+    public void Reaction()
     {
-        
+        return;
     }
 }
