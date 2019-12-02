@@ -1,0 +1,199 @@
+fileFormatVersion: 2
+guid: f7887490633137a48823f3b9cc73b45a
+SketchUpImporter:
+  generateBackFace: 0
+  mergeCoplanarFaces: 0
+  selectedNodes: 000000005400000055000000560000005700000058000000590000005a0000005b0000005c0000005d0000005e0000005f000000600000006100000062000000630000006400000065000000660000006700000068000000690000006a0000006b0000006c0000006d0000006e0000006f00000070000000710000007200000073000000740000007500000076000000
+  assetHash:
+    serializedVersion: 2
+    Hash: f960da2f6ed12bf54c83b4fbe47b35d4
+  longitude: -105.242139
+  latitude: 40.018309
+  northCorrection: -0
+  fileUnit: 0
+  sketchUpImportData:
+    defaultCamera:
+      position: {x: 87.95912, y: 45.819427, z: 70.92611}
+      lookAt: {x: 11.5094795, y: 11.493167, z: 20.867897}
+      up: {x: -0.29419348, y: 0.93613166, z: -0.192634}
+      fov: 35
+      aspectRatio: 0
+      orthoSize: 1
+      isPerspective: 1
+    scenes: []
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Group 101
+    100002: Group 102
+    100004: Group 105
+    100006: Group 107
+    100008: Group 109
+    100010: Group 111
+    100012: Group 113
+    100014: Group 115
+    100016: Group 117
+    100018: Group 84
+    100020: Group 99
+    100022: //RootNode
+    100024: Taile1
+    100026: Taile1 1
+    100028: Taile1 2
+    100030: Taile1 3
+    100032: Taile1 4
+    100034: Taile1 5
+    100036: Taile1 6
+    100038: Tenjou
+    400000: Group 101
+    400002: Group 102
+    400004: Group 105
+    400006: Group 107
+    400008: Group 109
+    400010: Group 111
+    400012: Group 113
+    400014: Group 115
+    400016: Group 117
+    400018: Group 84
+    400020: Group 99
+    400022: //RootNode
+    400024: Taile1
+    400026: Taile1 1
+    400028: Taile1 2
+    400030: Taile1 3
+    400032: Taile1 4
+    400034: Taile1 5
+    400036: Taile1 6
+    400038: Tenjou
+    2100000: _defaultMat
+    2100002: '[0102_RoyalBlue]'
+    2100004: '[0133_Gray]'
+    2100006: '[0130_Gainsboro]'
+    2100008: '[0099_LightSteelBlue]'
+    2300000: Group 102
+    2300002: Group 105
+    2300004: Group 107
+    2300006: Group 109
+    2300008: Group 111
+    2300010: Group 113
+    2300012: Group 115
+    2300014: Group 117
+    2300016: Group 99
+    2300018: Taile1
+    2300020: Taile1 1
+    2300022: Taile1 2
+    2300024: Taile1 3
+    2300026: Taile1 4
+    2300028: Taile1 5
+    2300030: Taile1 6
+    3300000: Group 102
+    3300002: Group 105
+    3300004: Group 107
+    3300006: Group 109
+    3300008: Group 111
+    3300010: Group 113
+    3300012: Group 115
+    3300014: Group 117
+    3300016: Group 99
+    3300018: Taile1
+    3300020: Taile1 1
+    3300022: Taile1 2
+    3300024: Taile1 3
+    3300026: Taile1 4
+    3300028: Taile1 5
+    3300030: Taile1 6
+    4300000: Mesh Taile1
+    4300002: Mesh Group 99
+    4300004: Mesh Group 102
+    4300006: Mesh Group 105
+    4300008: Mesh Group 107
+    4300010: Mesh Group 109
+    4300012: Mesh Group 111
+    4300014: Mesh Group 113
+    4300016: Mesh Group 115
+    4300018: Mesh Group 117
+    2186277476908879412: ImportLogs
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 2
+    materialSearch: 0
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.0254
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
